@@ -10,10 +10,10 @@ que = {}
 SESSION_NAME = getenv("SESSION_NAME", "session")
 BOT_TOKEN = getenv("BOT_TOKEN")
 BOT_NAME = getenv("BOT_NAME", "ᴜғᴏ ᴍᴜsɪᴄ ʙᴏᴛ")
-BG_IMAGE = getenv("BG_IMAGE", "https://telegra.ph/file/6d31d6b18722ce94521cb.jpg")
-THUMB_IMG = getenv("THUMB_IMG", "https://telegra.ph/file/6d31d6b18722ce94521cb.jpg")
-AUD_IMG = getenv("AUD_IMG", "https://telegra.ph/file/6d31d6b18722ce94521cb.jpg")
-QUE_IMG = getenv("QUE_IMG", "https://telegra.ph/file/6d31d6b18722ce94521cb.jpg")
+BG_IMAGE = getenv("BG_IMAGE", "https://telegra.ph/file/385135a287245fb1414a3.jpg")
+THUMB_IMG = getenv("THUMB_IMG", "https://telegra.ph/file/385135a287245fb1414a3.jpg")
+AUD_IMG = getenv("AUD_IMG", "https://telegra.ph/file/385135a287245fb1414a3.jpg")
+QUE_IMG = getenv("QUE_IMG", "https://telegra.ph/file/385135a287245fb1414a3.jpg")
 admins = {}
 API_ID = int(getenv("API_ID"))
 API_HASH = getenv("API_HASH")
@@ -27,6 +27,6 @@ PMPERMIT = getenv("PMPERMIT", None)
 
 DURATION_LIMIT = int(getenv("DURATION_LIMIT", "250"))
 
-COMMAND_PREFIXES = list(getenv("COMMAND_PREFIXES", "/ ! .").split())
+COMMAND_PREFIXES = list(getenv("COMMAND_PREFIXES", "/ ! . #").split())
 
 SUDO_USERS = list(map(int, getenv("SUDO_USERS").split()))
