@@ -48,13 +48,13 @@ async def start_(client: Client, message: Message):
                         "اضف البوت لمجموعتك", url=f"https://t.me/{BOT_USERNAME}?startgroup=true")
                 ],[
                     InlineKeyboardButton(
-                        "جروب الدعم", url=f"https://t.me/{GROUP_SUPPORT}"
+                        "ڪروب الونسة", url=f"https://t.me/{GROUP_SUPPORT}"
                     ),
                     InlineKeyboardButton(
                         "قناه السورس", url=f"https://t.me/{UPDATES_CHANNEL}")               
                  ],[
                     InlineKeyboardButton(
-                        "00:00", url="https://t.me/BANDA1M"
+                        "ققناتي الثانية", url="https://t.me/EUUUJ"
                     )
                 ]
             ]
@@ -74,7 +74,7 @@ async def start(client: Client, message: Message):
             [
                 [
                     InlineKeyboardButton(
-                        "جروب الدعم", url=f"https://t.me/{GROUP_SUPPORT}"
+                        "ڪروب للونسة", url=f"https://t.me/{GROUP_SUPPORT}"
                     ),
                     InlineKeyboardButton(
                         "قناه السورس", url=f"https://t.me/{UPDATES_CHANNEL}"
@@ -183,7 +183,7 @@ async def help_(client: Client, message: Message):
             [
                 [
                     InlineKeyboardButton(
-                        "جروب الدعم", url=f"https://t.me/{GROUP_SUPPORT}"
+                        "ڪروبي للونسة", url=f"https://t.me/{GROUP_SUPPORT}"
                     ),
                     InlineKeyboardButton(
                         "قناة السورس", url=f"https://t.me/{UPDATES_CHANNEL}"
@@ -191,7 +191,7 @@ async def help_(client: Client, message: Message):
                 ],
                 [
                     InlineKeyboardButton(
-                        "00:00", url=f"https://t.me/BANDA1M/6"
+                        "ققناتي الثانية", url=f"https://t.me/Euuuj"
                     )
                 ]
             ]
